@@ -6,7 +6,12 @@ const rev = () => {
     .src('./lib/**')
     .pipe(RevAll.revision({
       'dontRenameFile': [
-        'index.html'
+        'index.html',
+        'sw.js'
+      ],
+      'dontUpdateReference': [
+        'index.html',
+        'sw.js'
       ]
     }))
     .pipe(gulp.dest('build'))
