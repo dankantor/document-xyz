@@ -1,0 +1,14 @@
+{
+  "name": "document-xyz",
+  "version": "1.0.0",
+  "description": "Save text locally",
+  "repository": "https://github.com/dankantor/document-xyz",
+  "author": "Dan Kantor",
+  "license": "MIT",
+  "devDependencies": {
+    "del": "6.0.0",
+    "esm": "3.2.25",
+    "gulp": "4.0.2",
+    "gulp-rev-all": "3.0.0"
+  }
+}
